@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#bye-btn").hover(
+          function () {
+            alert("Anime Blog'uma Girmek Üzeresin!");
+          },
+          function () {
+            alert("Anime Blog'uma Bakmaktan Vazgeçtin!");
+          }
+        );
+      });
+    </script>
+    <script>
+      function displayMenu() {
+        var link = document.getElementById("main-nav");
+        link.classList.toggle("responsive");
+      }
+    </script>
+  </head>
+  <body id="body">
+    <header class="main-header">
+      <div id="main-nav" class="container">
+        <a href="#" class="main-header__logo">Film ve Dizi İncelemelerim</a>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a class="btn btn-secondary" href="#">Filmler</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="btn btn-secondary" href="#">Diziler</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="btn btn-secondary" href="#">Giriş</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="showcase">
+        <div class="content">
+          <h2>Hoş geldiniz</h2>
+          <h3>
+            İzlediğim onlarca film ve dizi incelemelerini sizlerle paylaşmak
+            için buradayım.
+          </h3>
+        </div>
+      </section>
+      <section id="first-start">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title">Ben kim miyim?</h2>
+            <p>
+              Küçüklüğünden beri film ve dizilerle iç içe olan bir üniversite
+              öğrencisiyim. Film ve dizileri izlemeyi sevdiğim gibi yorumlamayı
+              ve incelemeyi de çok severim.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="icon-box col-2">
+              <i class="fab fa-buffer fa-3x"></i>
+              <h3>Amaç</h3>
+              <p>
+                İnsanların daha çok filmlere ve dizilere erişebilmesi ve
+                sevdiğim içerikleri insanlara ulaştırabilmek.
+              </p>
+            </div>
+            <div class="icon-box col-2">
+              <i class="far fa-smile fa-3x"></i>
+              <h3>İzlerken Eğlenin!</h3>
+              <p>
+                Film ve dizi izlerken çok eğlenirim ve eğlendiğim bu içerikleri
+                insanlarla paylaşmaktan zevk alırım.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="second_box">
+        <div class="row">
+          <div class="col-2 second_box__left"></div>
+          <div class="col-2 second_box__right">
+            <h3>Film ve diziler haricinde çok iyi bir anime hayranıyımdır!</h3>
+            <p>
+              Animeler herkese hitap etmiyor. Bu sebepten dolayı ayrı bir
+              animeleri incelediğim sayfam mevcut. Eğer sen de animeci isen
+              aşağıdan anime sayfama gidebilirsin.
+            </p>
+            <a id="bye-btn" class="btn btn-primary" href="#">Anime Blog'um</a>
+          </div>
+        </div>
+      </section>
+      <section id="movies">
+        <h2 class="section-title">En Son İzlediklerim & İncelediklerim</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/bg-starwars.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Star Wars</h2>
+                  <p>
+                    Lucasfilm'in yeni "ara dönem filmlerinden ilki" olarak lanse
+                    edilen yapım bir grup beklenmedik kahramanın, imkansız
+                    görünen Ölüm Yıldızı planlarını çalma görevi için bir araya
+                    gelme hikayesini anlatacak...
+                  </p>
+                  <p>
+                    <button class="btn btn-primary">Devamını Oku</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/bg-breakingbad.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Breaking Bad</h2>
+                  <p>
+                    Kansere yakalanınca, ölümünden sonra ailesinin finansal
+                    olarak rahat yaşayabilmesi için uyuşturucu işine giren ve
+                    meth olarak bilinen uyuşturucu maddeden üretmeye başlayan
+                    bir kimya öğretmeninin hikâyesi...
+                  </p>
+                  <p>
+                    <button class="btn btn-primary">Devamını Oku</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/bg-narcos.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Narcos</h2>
+                  <p>
+                    Narcos, Pablo Escobar’dan ilham alan ve onun bir zamanlar
+                    nasıl korkunç bir uyuşturucu krallığına sahip olduğunu
+                    anlatan son dönemlerin en başarılı suç dizilerinden biri...
+                  </p>
+                  <p>
+                    <button class="btn btn-primary">Devamını Oku</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul id="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Forum</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul id="social-links">
+              <li><a href="#" class="fab fa-facebook"></a></li>
+              <li><a href="#" class="fab fa-twitter"></a></li>
+              <li><a href="#" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#body" id="backtotop">
+      <i class="fas fa-chevron-circle-up"></i>
+    </a>
+  </body>
+</html>

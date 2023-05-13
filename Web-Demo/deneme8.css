@@ -1,0 +1,80 @@
+body {
+  background-color: #1f1f1f; /* koyu gri arkaplan */
+  color: #f1f1f1; /* beyaz metin rengi */
+  font-family: Arial, sans-serif; /* varsayılan font ailesi */
+}
+
+a {
+  color: #f1f1f1; /* beyaz link rengi */
+  text-decoration: none; /* alt çizgiyi kaldır */
+}
+
+a:hover {
+  color: #ff4500; /* link üzerine gelince turuncu renk */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #1a1a1a; /* koyu gri üstbilgi arkaplan */
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333; /* siyah menü arkaplan */
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f1f1f1; /* beyaz menü link rengi */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ff4500; /* menü üzerine gelince turuncu arkaplan */
+  color: #1f1f1f; /* beyaz link rengi */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.post {
+  margin: 30px 0;
+}
+
+.post-title {
+  font-size: 36px;
+}
+
+.post-content {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.sidebar {
+  background-color: #1a1a1a; /* koyu gri kenarlık arkaplan */
+  padding: 20px;
+}
+
+.sidebar h3 {
+  color: #ff4500; /* turuncu kenarlık başlığı rengi */
+}
+
+.footer {
+  background-color: #333; /* siyah altbilgi arkaplan */
+  color: #f1f1f1; /* beyaz metin rengi */
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}

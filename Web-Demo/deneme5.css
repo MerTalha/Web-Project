@@ -1,0 +1,89 @@
+/* Genel Stil */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Başlık */
+header {
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Menü */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* İçerik */
+article {
+  margin-bottom: 30px;
+}
+
+article h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+article p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Alt Bilgi */
+footer {
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
